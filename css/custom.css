@@ -1,3 +1,22 @@
-@import 'css/bulma/css/bulma.css'
+.nav-link {
+    color: whitesmoke;
+}
 
+.nav-link:hover {
+    color:wheat;
+}
 
+.background2 {
+    width: 50%;
+    
+}
+
+.background1 {
+    width: 50%;
+    
+}
+
+.background3 {
+    width: 50%;
+
+}
