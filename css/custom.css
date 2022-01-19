@@ -12,11 +12,35 @@
 }
 
 .background1 {
-    width: 50%;
+    width: 45%;
     
 }
 
 .background3 {
     width: 50%;
 
+}
+
+.background {
+    width: 100%;
+}
+
+#bienvenue {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+#barrenavigation {
+    border: solid 2pt whitesmoke;
+    border-radius: 5pt;
+    padding: 5pt;
+}
+
+#slides {
+    background-color: #adb5bd ;
+    padding: 10pt;
+}
+
+#bas-de-page {
+    padding: 100pt;
 }
