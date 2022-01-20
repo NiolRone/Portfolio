@@ -45,3 +45,16 @@
     padding: 100pt;
 }
 
+#cartes {
+    position: relative;
+    display: flex;
+}
+
+#formation {
+    left: 20pt;
+    bottom: 35pt;
+}
+
+#contact-icone {
+    display: flex;
+}
