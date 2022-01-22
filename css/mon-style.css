@@ -81,3 +81,24 @@
     position: relative;
     bottom: 16pt;
 }
+
+#logo-mdl {
+    width: 200px;
+}
+
+#text-zoom {
+    padding: 100pt;
+}
+
+#jai-appris {
+    position: relative;
+    left: 20pt;
+}
+
+#photo-mdl {
+    width: 30rem;
+}
+
+#photo-ecran {
+    width: 40rem;
+}
