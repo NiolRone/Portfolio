@@ -59,3 +59,25 @@
     display: flex;
 }
 
+#comp li {
+    list-style:circle;
+    padding: 5pt;
+}
+
+#barrenavigation_cv {
+    border: solid 2pt whitesmoke;
+    border-radius: 5pt;
+    padding: 20pt;
+    background: dimgray;
+}
+
+#titre_cv {
+    color: whitesmoke;
+    position: relative;
+    bottom: 16pt;
+}
+
+#boutons-accueil_cv {
+    position: relative;
+    bottom: 16pt;
+}
