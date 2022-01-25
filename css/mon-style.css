@@ -59,7 +59,7 @@
     display: flex;
 }
 
-#comp li {
+.comp li {
     list-style:circle;
     padding: 5pt;
 }
@@ -88,17 +88,26 @@
 
 #text-zoom {
     padding: 100pt;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#jai-appris {
-    position: relative;
-    left: 20pt;
+#carousel-mdl {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#photo-mdl {
-    width: 30rem;
+#titre-zoom {
+    text-align: center;
 }
 
-#photo-ecran {
-    width: 40rem;
+#icon-comp {
+    padding: 10pt;
+    list-style: none;
 }
+
+#icon-comp i{
+    padding: 10pt;
+}
+
