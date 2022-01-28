@@ -60,7 +60,7 @@
 }
 
 .comp li {
-    list-style:circle;
+    list-style: square;
     padding: 5pt;
 }
 
@@ -84,22 +84,13 @@
 
 #logo-mdl {
     width: 200px;
-}
-
-#text-zoom {
-    padding: 100pt;
-    margin-right: auto;
-    margin-left: auto;
+    border-width: 3pt;
 }
 
 #carousel-mdl {
-    width: 50%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#titre-zoom {
-    text-align: center;
 }
 
 #icon-comp {
@@ -111,3 +102,14 @@
     padding: 10pt;
 }
 
+#cafet {
+    width: 122%;
+}
+
+#texte-zoom {
+    padding-left: 10pt;
+}
+
+#affiche {
+    width: 50%;
+}

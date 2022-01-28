@@ -17,7 +17,7 @@
 </head>
 
 
-<body class="h-100 text-white bg-dark">
+<div class="h-100 text-white bg-dark">
     <div class="d-flex h-100 text-center text-white bg-dark">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="mb-auto" id="barrenavigation">
@@ -38,68 +38,88 @@
                                 <li><a class="dropdown-item" href="https://youtu.be/_rG4KWM07uM">English Resume Video</a></li>
                             </ul>
                         </div>
-                        <a class="nav-link disable" href="../saes/sae11/sae11.html">SAE 11</a>
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <abbr title="Situations d'évaluation et d'apprentissage">SAES</abbr>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../saes/sae11/sae11.html">SAE11</a></li>
+                                <li><a class="dropdown-item" href="../index.html">SAE12</a></li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </header>
-            <div>
-                
-                <div id="titre-zoom"> 
-                    <h1>Ma participation a la vie lycéenne</h1>
-                    <h2>Un engagement nouveau</h2>
-                </div>
-                <hr>
-                <div>
-                    <img id="logo-mdl" class="rounded float-start" src="../img/LogoMDL-Final.png" alt="logo-mdl">
-                    <p id="texte-zoom">
-                        Pendant mes 3 années de lycée j’ai été <strong>Président de la Maison des Lycéens du lycée Vaucanson</strong>, responsable de la cafétéria ainsi que de la mise en place de projets. Il y avait une vingtaine de membres actifs à gérer à l’aide du bureau. Nous proposions à la vente dans cette cafétéria des boissons, des snacks et nous rendions cet endroit convivial. Il fallait pour cela <strong>gérer un budget, des stocks et un planning</strong>. Mais aussi réagir aux imprévus et fixer des prix appropriés. Nous travaillions en relation avec l’administration du lycée afin de leur proposer des projets lors de réunions. Les résultats ont été très bon. En 3 ans nous avons fait <strong>dix mille euros de bénéfices</strong>, nous avons organisé des soirées financées par l’association qui ont été très appréciés des élèves, aussi des clubs comme un club de dessin, de MAO.
-                    </p>
-                    <p>J’ai aimé pendant ces 3 ans rendre des personnes heureuses en leur proposant un service convivial. Apprendre à gérer des personnes, un budget et m’épanoui pleinement dans un projet qui m’a fait murir.</p>
-                    <br>
-                    <br>
+            <br>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12"> 
+                            <h1>Ma participation a la vie lycéenne</h1>
+                            <h2>Un engagement nouveau</h2>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img id="logo-mdl" class="rounded img-fluid" src="../img/LogoMDL-Final.png" alt="logo-mdl">
+                        </div>
+                        <div class="col-md-9">
+                            <p id="texte-zoom">
+                                Pendant mes 3 années de lycée j’ai été <strong>Président de la Maison des Lycéens du lycée Vaucanson</strong>, responsable de la cafétéria ainsi que de la mise en place de projets. Il y avait une vingtaine de membres actifs à gérer à l’aide du bureau. Nous proposions à la vente dans cette cafétéria des boissons, des snacks et nous rendions cet endroit convivial. Il fallait pour cela <strong>gérer un budget, des stocks et un planning</strong>. Mais aussi réagir aux imprévus et fixer des prix appropriés. Nous travaillions en relation avec l’administration du lycée afin de leur proposer des projets lors de réunions. Les résultats ont été très bon. En 3 ans nous avons fait <strong>dix mille euros de bénéfices</strong>, nous avons organisé des soirées financées par l’association qui ont été très appréciés des élèves, aussi des clubs comme un club de dessin, de MAO.
+                            </p>
+                            <p>J’ai aimé pendant ces 3 ans rendre des personnes heureuses en leur proposant un service convivial. Apprendre à gérer des personnes, un budget et m’épanoui pleinement dans un projet qui m’a fait murir.</p>
+                        </div>
+                    </div>
                     <hr>
+                    <div class="row">
+                        <div id="jai-appris" class="col-lg-3">
+                            <h4>J'ai appris à...</h4>
+                            <ul>
+                                <li>Avoir des responsabilités</li>
+                                <li>Gérer des personnes</li>
+                                <li>M’exprimer clairement</li>             
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-mg-12">
+                              <h2>Photos :</h2>
+                        </div>
+                    </div>
                 </div>
-                <div id="jai-appris">
-                    <h4>J'ai appris à...</h4>
-                    <ul>
-                        <li>Avoir des responsabilités</li>
-                        <li>Gérer des personnes</li>
-                        <li>M’exprimer clairement</li>             
-                    </ul>
-                </div> 
+            </div> 
+
+            <div class="" id="carousel-mdl">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/IMG_20190123_160039.jpg" class="d-block rounded" alt="cafet" id="cafet">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ecran_anas_3.png" class="d-block w-100 rounded" alt="ecran-cafet" id="ecran-cafet">
+                        </div>
+                        </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-
-    <div id="carousel-mdl">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../img/IMG_20190123_160039.jpg" class="d-block w-100 image-zoomsur rounded" alt="cafet">
-                </div>
-                <div class="carousel-item">
-                    <img src="../img/ecran_anas_3.png" class="d-block w-100 image-zoomsur rounded" alt="ecran-cafet">
-                </div>
-                </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-
-
-    
     <!-- Scripts .js-->
     <script src="../css/bootstrap/dist/js/jquery.js"></script>
     <script src="../css/bootstrap/dist/js/bootstrap.bundle.js"></script>
-</body>
-</html>
+</div>
