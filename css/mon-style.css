@@ -3,7 +3,8 @@
 }
 
 .nav-link:hover {
-    color:wheat;
+    color:rgb(206, 206, 206);
+    border-bottom: 2px solid whitesmoke;
 }
 
 .background2 {
@@ -116,4 +117,16 @@
 
 #exemple-cisco {
     width: 100% ;
+}
+
+.lien-sae {
+    font-size: xx-large;
+}
+
+#cisco-packet-tracer {
+    width: 30%;
+}
+
+.icon-footer {
+    color: whitesmoke;
 }
