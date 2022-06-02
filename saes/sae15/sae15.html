@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sae 13</title>
+    <title>Sae 15</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +37,7 @@
                 </ul>
             </div>
             <a class="nav-link active" aria-current="page" href="/saes/sae.html"><abbr title="Situations d'apprentissage et d'évalutation">SAEs</abbr></a>
+          
             </nav>
         </div>
     </header>
@@ -44,29 +45,47 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12"><h1>Découvrir un dispositif de transmission</h1></div>
+                <div class="col-md-12"><h1>Traitement de données</h1></div>
               </div>
               <hr>
             <div class="row">
                 <div class="col align-self-center">
+                    <img src="/saes/sae15/python_logo.png" class="img-fluid w-50" alt="cv-brut">
+                </div>
+                <div class="col align-self-center">
                     <p class="lead">
-                        Comme son nom l'indique, dans cette SAE nous avons pu comprendre et analyser le fonctionnement d'un dispositif de transmission.
-                        <br>
-                        Grâce a l'appareil DSX-602 CableAnalyser de la marque Fluke, nous avons réalisé des mesures sur le signal transmis par un cablage réseau de salle de travaux pratiques.
-                        Cela nous a permis de voir la difference entre les types de cable Ethernet et leurs caractéristiques.
+                        Au cours de notre futur métier, nous pouvons être confronté à certaines données qui nécessitent d'être traité, trier, pour faciliter la lecture aux autres personnel. Le but de cette SAE est de créer une application grâce au langage de programmation Python qui traite des données d'emploi du temps.
                         <br>
                     </p>
-                </div>
-                <div class="col">
-                    <img src="/img/19229_fn-dsx-602_11a_c_360x360.webp" class="img-fluid" alt="DSX-602 CableAnalyser">
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col">
+                <div class="col align-self-center">
                     <p>
-                        Une fois les mesures faites il fallait les traiter. Pour cela nous avons utilisé un tableur. Grâce a cet outil nous avons tracé des courbes, efféctué des calculs et comprendre pourquoi un cable était défaillant ou non.
-                        Nous avons donc compris la notion de <strong><abbr title="Diaphonie">NEXT</abbr></strong>, <strong><abbr title="Atténuation">d'insertion loss</abbr></strong> et des differents blindages des câbles. 
+                        Nous devions donc traiter l'emploi du temps de notre département Réseau et Télécommunication (qui se trouve sur l'ADE de l'université).
+                        <br>
+                        Mon projet attitré avait pour but de rechercher et d'afficher les créneaux de cours libres de la semaine, suivant une date donnée, en fonction des disponibilités des groupes de classe et des enseignants.
+                        <br>
+                        Afin de mener à bien ce projet, j'ai dans un premier temps dû traduire les données qui provenaient de fichiers au format ICS pour qu'elles soient plus facilement utilisables en fonction Python. Pour ce faire, j'ai utilisé plusieurs fonctions qui lisaient les fichiers ICS et qui en faisait des listes et des dictionnaires avec l'heure des cours, les groupes et enseignants impliqués, les salles ou encore le nom des modules des cours. 
+                    </p>
+                </div>
+                <div class="col align-self-center">
+                    <img src="/saes/sae15/capture_python.png" class="img-fluid" alt="capture-python">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col align-self-center">
+                    <p>
+                        Ensuite, j'ai créé un algorithme de recherche qui trouvait des créneaux pendant lesquels un enseignant était libre, et ceux pendant lesquels un groupe de classe donné était libre, puis j'ai combiné les deux.
+                        <br>
+                        Ce que je n'ai pas réussi à faire, c'est de ne pas prendre en compte les vacances et jours fériés.
+                        <br>
+                        Il me restait a afficher les résultats sous forme de tableau en format Markdown.
+                        <br>
+                        <br>
+                        J'ai beaucoup aimé cette SAE dans laquelle j'ai pu mettre à profit mes compétences de programmation en Python apprises jusque là. Cela m'a permis de devenir plus autonome, car c'était un projet individuel et nous n'étions pas aussi guidé que lors de nos travaux pratiques habituels.
                     </p>
                 </div>
             </div>
@@ -83,12 +102,12 @@
             <table class="table table-borederless table-responsive table-dark">
               <tbody>
                 <tr>
-                  <td>&#9900; Utiliser un appareil de test et de mesure professionel</td>
-                  <td>&#9900; Traiter des données via un tableur</td>
+                  <td>&#9900; Prendre en main un projet et le mener a bien sans être guidé</td>
+                  <td>&#9900; Traiter des données grâce au langage de programmation Python</td>
                 </tr>
                 <tr>
-                  <td>&#9900; Tester une installation internet et valider ou non sa mise en place</td>
-                  <td>&#9900; Étudier le fonctionnement d'un cable Ethernet et d'un connecteur RJ45</td>
+                  <td>&#9900; Automatiser l'affichage de données</td>
+                  <td>&#9900; Utiliser plusieurs outils et fonction Python pour les combiner ensembles</td>
                 </tr>
               </tbody>
             </table>
@@ -112,12 +131,9 @@
         </div>
   </div>
 
-  
-
 
 
   <!-- Scripts .js-->
-  <script src="https://kit.fontawesome.com/a00401d9ba.js" crossorigin="anonymous"></script>
   <script src="../../css/bootstrap/dist/js/jquery.js"></script>
   <script src="../../css/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>

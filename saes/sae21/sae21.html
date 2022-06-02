@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sae 13</title>
+    <title>Sae 21</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +37,7 @@
                 </ul>
             </div>
             <a class="nav-link active" aria-current="page" href="/saes/sae.html"><abbr title="Situations d'apprentissage et d'évalutation">SAEs</abbr></a>
+          
             </nav>
         </div>
     </header>
@@ -44,30 +45,41 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12"><h1>Découvrir un dispositif de transmission</h1></div>
+                <div class="col-md-12"><h1>Construire un réseau informatique pour une petite structure</h1></div>
               </div>
               <hr>
             <div class="row">
                 <div class="col align-self-center">
                     <p class="lead">
-                        Comme son nom l'indique, dans cette SAE nous avons pu comprendre et analyser le fonctionnement d'un dispositif de transmission.
-                        <br>
-                        Grâce a l'appareil DSX-602 CableAnalyser de la marque Fluke, nous avons réalisé des mesures sur le signal transmis par un cablage réseau de salle de travaux pratiques.
-                        Cela nous a permis de voir la difference entre les types de cable Ethernet et leurs caractéristiques.
-                        <br>
+                        Afin de nous exercer dans le domaine de l'infrastructure réseau, notre IUT à mit en place une platforme cloud se basant sur Openstack.
+                        Dans cette SAE, nous avons pu créer un parc informatique virtuel et tester son fonctionnement.
                     </p>
                 </div>
-                <div class="col">
-                    <img src="/img/19229_fn-dsx-602_11a_c_360x360.webp" class="img-fluid" alt="DSX-602 CableAnalyser">
+                <div class="col align-self-center">
+                    <img src="/saes/sae21/openstack-logo2.png" class="img-fluid w-50" alt="cv-brut">
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col">
+              <div class="col align-self-center">
+                <img src="/saes/sae21/openstack-example.png" class="img-fluid rounded" alt="capture-openstack">
+              </div>
+                <div class="col align-self-center">
                     <p>
-                        Une fois les mesures faites il fallait les traiter. Pour cela nous avons utilisé un tableur. Grâce a cet outil nous avons tracé des courbes, efféctué des calculs et comprendre pourquoi un cable était défaillant ou non.
-                        Nous avons donc compris la notion de <strong><abbr title="Diaphonie">NEXT</abbr></strong>, <strong><abbr title="Atténuation">d'insertion loss</abbr></strong> et des differents blindages des câbles. 
+                        Dans un premier temps, nous avons appris à créer des volumes et des instances, qu'elles soient Windows ou Linux, de les configurer et de les connecter au même réseau afin qu'elles puissent communiquer ensemble. Il fallait également configurer des groupes de sécurité pour laisser passer certaines trames comme celles pour le protocole SSH ou encore ICMP afin de tester les communications avec les machines.
                     </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col align-self-center">
+                  <p>
+                    Par la suite, nous avons ajouté et configuré des routeurs pour créer des sous-réseaux avec plusieurs machines.
+                    <br>
+                    Afin de se connecter avec plus de sécurité à nos instances, nous avons créer des <strong>paires de clé SSH</strong> qui permettent de contrôler quelles machine se connecte à nos instances. Nous avons également affilié à ces instances des IP flottantes pour se connecter à elles depuis n'importe où. Pour contrôler a dsitance ces machines, nous avons utilisé le protocole SSH et RDP.
+                    <br>
+                    Cette SAE était très formatrice, car énormément d'entreprises aujourd'hui se servent de platforme <strong>Cloud</strong> comme <strong>AWS</strong> ou <strong>Azure</strong> et maintenant, nous savons maîtriser ce type de technologies. 
+                  </p>
                 </div>
             </div>
             <hr>
@@ -83,12 +95,8 @@
             <table class="table table-borederless table-responsive table-dark">
               <tbody>
                 <tr>
-                  <td>&#9900; Utiliser un appareil de test et de mesure professionel</td>
-                  <td>&#9900; Traiter des données via un tableur</td>
-                </tr>
-                <tr>
-                  <td>&#9900; Tester une installation internet et valider ou non sa mise en place</td>
-                  <td>&#9900; Étudier le fonctionnement d'un cable Ethernet et d'un connecteur RJ45</td>
+                  <td>&#9900; Utiliser une platforme de <strong>cloud computing</strong></td>
+                  <td>&#9900; Configurer des instances et se connecter à elles avec certains protocoles</td>
                 </tr>
               </tbody>
             </table>
@@ -112,12 +120,9 @@
         </div>
   </div>
 
-  
-
 
 
   <!-- Scripts .js-->
-  <script src="https://kit.fontawesome.com/a00401d9ba.js" crossorigin="anonymous"></script>
   <script src="../../css/bootstrap/dist/js/jquery.js"></script>
   <script src="../../css/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
